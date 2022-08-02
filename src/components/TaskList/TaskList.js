@@ -21,13 +21,13 @@ function TaskList() {
         <hr />
       </div>
       <OptionForm />
-      {tasks ? tasks?.map((task) => (
+      {tasks?.map((task) => (
         <Task
           task={task}
           id={task.id}
           key={task.id}
         />
-      )) : 'Ждем ответ от сервера'}
+      ))}
     </div>
   );
 }
