@@ -21,7 +21,7 @@ function TaskList() {
         <hr />
       </div>
       <OptionForm />
-      {tasks ? tasks.map((task) => (
+      {tasks ? tasks?.map((task) => (
         <Task
           task={task}
           id={task.id}
