@@ -6,6 +6,7 @@ function Footer() {
     <div className={classes.footer}>
       <p className="mb-0 mt-1">Если хотите со мной связаться:</p>
       <a href="https://github.com/tymphoto" className={classes.footerLink}>Артем Тимошенко</a>
+      <p>Test commit</p>
     </div>
   );
 }
